@@ -4,7 +4,7 @@ function ProjectList({ projects }) {
       {projects.map((project, index) => (
         <div key={index} className="project-card">
           <img 
-            src={project.img} 
+            src={`${import.meta.env.BASE_URL}${project.img}`} 
             alt={project.category}
             className="project-image"
           />
