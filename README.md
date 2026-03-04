@@ -1,9 +1,12 @@
+[![Portfolio Filter](https://github.com/efrem005/ra-events-state-filter/actions/workflows/web.yml/badge.svg)](https://github.com/efrem005/ra-events-state-filter/actions/workflows/web.yml)
+## [GitHub Page](https://efrem005.github.io/ra-events-state-filter/)
+
 Портфолио с фильтрами
 ===
 ## 1. Описание задания
 Вам предстоит создать веб-приложение для отображения портфолио проектов с возможностью их фильтрации по категориям. Основная цель — отработать навыки управления состоянием и взаимодействия компонентов в React. Приложение должно быть реализовано как набор компонентов с чётким разделением ответственности между ними. Внешний вид и функциональность должны соответствовать макету на изображении:
 
-![portfolio-all](./assets/portfolio-all.png)
+![portfolio-all](./public/assets/portfolio-all.png)
 
 ## 2. Состав компонентов
 Архитектура приложения должна состоять из трёх компонентов:
@@ -56,7 +59,7 @@
 - `ProjectList` отображает полученный список проектов.
 
 Пример:
-![portfolio-cards.png](./assets/portfolio-cards.png)
+![portfolio-cards.png](./public/assets/portfolio-cards.png)
 
 ## 4. Требования к коду
 - Компонент `Portfolio` должен быть реализован как классовый компонент для управления состоянием.
